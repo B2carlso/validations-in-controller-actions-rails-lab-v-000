@@ -15,7 +15,7 @@ class AuthorsController < ApplicationController
 
       redirect_to author_path(@author)
     else
-      render :show
+      render :new
     end
   end
 
